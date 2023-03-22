@@ -1,0 +1,58 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\gr612_zlsse\\SecondRcisEducationPractice\\PracticWork2\\PracticWork2\\PracticWork2.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\gr612_zlsse\\SecondRcisEducationPractice\\PracticWork2\\PracticWork2\\PracticWork2.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\gr612_zlsse\\SecondRcisEducationPractice\\PracticWork2\\PracticWork2\\PracticWork2.csproj",
+        "projectName": "PracticWork2",
+        "projectPath": "C:\\Users\\gr612_zlsse\\SecondRcisEducationPractice\\PracticWork2\\PracticWork2\\PracticWork2.csproj",
+        "packagesPath": "C:\\Users\\gr612_zlsse\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\gr612_zlsse\\SecondRcisEducationPractice\\PracticWork2\\PracticWork2\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\gr612_zlsse\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
