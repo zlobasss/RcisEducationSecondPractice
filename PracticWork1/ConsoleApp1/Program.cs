@@ -1,9 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Collections.Immutable;
-using System.Globalization;
 using System.Linq;
-using Microsoft.VisualBasic;
 using SystemException = System.SystemException;
 
 namespace ConsoleApp1
@@ -13,19 +10,20 @@ namespace ConsoleApp1
         static void Main()
         {
             Task1();
+            Task2();
+            Task3();
         }
 
         static void Task1()
         {
-            string jew = "";
-            string stone = "";
+            string jew;
+            string stone;
             stone = Console.ReadLine();
             jew = Console.ReadLine();
             int count = 0;
-
-            for (int i = 0; i < stone.Length; ++i)
+            for (int i = 0; i < stone?.Length; ++i)
             {
-                for (int j = 0; j < jew.Length; ++j)
+                for (int j = 0; j < jew?.Length; ++j)
                 {
                     if (jew[j] == stone[i])
                     {
@@ -33,9 +31,9 @@ namespace ConsoleApp1
                     }
                 }
             }
-
             Console.WriteLine(count);
         }
+        
         static bool NextSet(int[] digits, int length, int index)
         {
             for (int i = index - 1; i >= 0; --i)
@@ -47,68 +45,41 @@ namespace ConsoleApp1
                     {
                         digits[j] = digits[j - 1] + 1;
                     }
-
                     return true;
                 }
             }
-
             return false;
         }
 
-        static bool isUnnessary(List<int[]> result, int[] array, int target)
+        static bool IsUnnessary(List<int[]> result, int[] array, int target)
         {
-            foreach (int[] temp in result)
+            foreach (int[] value in result)
             {
-                for (int i = 0; i < temp.Length; ++i)
+                for (int i = 0; i < value.Length; ++i)
                 {
-                    if (i == temp.Length - 1 && temp[i] == array[i])
+                    if (i == value.Length - 1 && value[i] == array[i])
                     {
                         return true;
                     }
-                    if (temp[i] == array[i])
+                    if (value[i] == array[i])
                     {
                         continue;
                     }
-                    else
-                    {
-                        break;
-                    }
+                    break;
                 }
             }
-            int sum = 0;
-            for (int i = 0; i < array.Length; ++i)
-            {
-                sum += array[i];
-            }
-            if (sum != target)
-            {
-                return true;
-            }
-            return false;
+            return array.Sum() != target;
         }
-
-        static int[] Func(int[] input)
-        {
-            int[] temp = new int[input.Length];
-            for (int i = 0; i < input.Length; ++i)
-            {
-                temp[i] = input[i];
-            }
-            return temp;
-        }
-
+        
         static void Task2()
         {
-            string line = "";
             Console.Write("candidates = ");
-            line = Console.ReadLine();
-            int target = 0;
+            string[] candidatesString = Console.ReadLine().Split(",");
             Console.Write("target = ");
-            target = Convert.ToInt32(Console.ReadLine());
-            string[] candidatesString = line.Split(",");
+            int target = Convert.ToInt32(Console.ReadLine());
+            
             int[] candidates = new int [candidatesString.Length];
-            List<int[]> result = new List<int[]> {};
-            int index = 0;
+            List<int[]> result = new List<int[]>();
 
             for (int i = 0; i < candidatesString.Length; ++i)
             {
@@ -120,11 +91,9 @@ namespace ConsoleApp1
                 {
                     Console.WriteLine($"Вы ввели не целочисленное число!!! {candidatesString[i]}");
                 }
-
             }
-
             Array.Sort(candidates);
-
+            
             for (int i = 1; i <= candidates.Length; ++i)
             {
                 int[] digits = new int[i];
@@ -132,35 +101,28 @@ namespace ConsoleApp1
                 {
                     digits[j] = j;
                 }
-
-                if (candidates.Length >= i)
+                do
                 {
-                    int[] temp = new int[i];
-                    do
+                    int[] combs = new int[i];
+                    for (int j = 0; j < digits.Length; ++j)
                     {
-                        for (int j = 0; j < digits.Length; ++j)
-                        {
-                            temp[j] = candidates[digits[j]];
-                        }
-
-                        int[] temp2 = new int[i];
-                        temp2 = Func(temp);
-
-                        if (!isUnnessary(result, temp2, target))
-                        {
-                            result.Add(temp2);
-                        }
-                    } while (NextSet(digits, candidates.Length, i));
-                }
+                        combs[j] = candidates[digits[j]];
+                    }
+                    
+                    if (!IsUnnessary(result, combs, target))
+                    {
+                        result.Add(combs);
+                    }
+                } while (NextSet(digits, candidates.Length, i));
             }
 
             for (int i = 0; i < result.Count; ++i)
             {
-                Console.WriteLine(string.Join(" ", result[i]));
+                Console.WriteLine($"{string.Join(" + ", result[i])} = {target}");
             }
         }
 
-        static bool isHaveRepet(List<int> nums)
+        static bool IsHaveRepet(List<int> nums)
         {
             for (int i = 0; i < nums.Count - 1; ++i)
             {
@@ -177,9 +139,9 @@ namespace ConsoleApp1
 
         static void Task3()
         {
-            string[] numsStr = Console.ReadLine().Split(",");
+            string[] numsStr = Console.ReadLine()?.Split(",");
             List<int> nums = new List<int>();
-            for (int i = 0; i < numsStr.Length; ++i)
+            for (int i = 0; i < numsStr?.Length; ++i)
             {
                 try
                 {
@@ -190,7 +152,7 @@ namespace ConsoleApp1
                     Console.WriteLine("Вы ввели не целочисленное число!!! ");
                 }
             }
-            Console.WriteLine(isHaveRepet(nums));
+            Console.WriteLine(IsHaveRepet(nums));
         }
     }
 }
