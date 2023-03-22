@@ -4,6 +4,7 @@ using System.Collections.Immutable;
 using System.Globalization;
 using System.Linq;
 using Microsoft.VisualBasic;
+using SystemException = System.SystemException;
 
 namespace ConsoleApp1
 {
@@ -11,7 +12,7 @@ namespace ConsoleApp1
     {
         static void Main()
         {
-            Task2();
+            Task1();
         }
 
         static void Task1()
@@ -157,6 +158,39 @@ namespace ConsoleApp1
             {
                 Console.WriteLine(string.Join(" ", result[i]));
             }
+        }
+
+        static bool isHaveRepet(List<int> nums)
+        {
+            for (int i = 0; i < nums.Count - 1; ++i)
+            {
+                for (int j = i + 1; j < nums.Count; ++j)
+                {
+                    if (nums[i] == nums[j])
+                    {
+                        return false;
+                    }
+                }
+            }
+            return true;
+        }
+
+        static void Task3()
+        {
+            string[] numsStr = Console.ReadLine().Split(",");
+            List<int> nums = new List<int>();
+            for (int i = 0; i < numsStr.Length; ++i)
+            {
+                try
+                {
+                    nums.Add(Convert.ToInt32(numsStr[i]));
+                }
+                catch (SystemException)
+                {
+                    Console.WriteLine("Вы ввели не целочисленное число!!! ");
+                }
+            }
+            Console.WriteLine(isHaveRepet(nums));
         }
     }
 }

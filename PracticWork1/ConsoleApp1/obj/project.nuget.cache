@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "awPzSf2JowcErP7OT0aTLzLBaTml6fTGJxSguKPbS9d/ydHbDnyV9w1UtZqTgD/2VQARLMWoyNJGj9UHyeOW6w==",
+  "dgSpecHash": "8QmbYb4DJhEEge5n2zoqQvy8FB+muUnAAkw8PFDuckays5JhxlapHK6gT6kbCj2ZXEWkrns/DP9hsUowmPE3UQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\gr612_zlsse\\RiderProjects\\PracticWork1\\ConsoleApp1\\ConsoleApp1.csproj",
+  "projectFilePath": "C:\\Users\\gr612_zlsse\\SecondRcisEducationPractice\\PracticWork1\\ConsoleApp1\\ConsoleApp1.csproj",
   "expectedPackageFiles": [
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.app\\2.1.0\\microsoft.netcore.app.2.1.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.dotnetapphost\\2.1.0\\microsoft.netcore.dotnetapphost.2.1.0.nupkg.sha512",
