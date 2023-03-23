@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\gr612_zlsse\\SecondRcisEducationPractice\\PracticWork2\\PracticWork2\\PracticWork2.csproj": {}
+    "C:\\Users\\gr612_zlsse\\SecondRcisEducationPractice\\PracticWork6\\PracticWork6\\PracticWork6.csproj": {}
   },
   "projects": {
-    "C:\\Users\\gr612_zlsse\\SecondRcisEducationPractice\\PracticWork2\\PracticWork2\\PracticWork2.csproj": {
+    "C:\\Users\\gr612_zlsse\\SecondRcisEducationPractice\\PracticWork6\\PracticWork6\\PracticWork6.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\gr612_zlsse\\SecondRcisEducationPractice\\PracticWork2\\PracticWork2\\PracticWork2.csproj",
-        "projectName": "PracticWork2",
-        "projectPath": "C:\\Users\\gr612_zlsse\\SecondRcisEducationPractice\\PracticWork2\\PracticWork2\\PracticWork2.csproj",
+        "projectUniqueName": "C:\\Users\\gr612_zlsse\\SecondRcisEducationPractice\\PracticWork6\\PracticWork6\\PracticWork6.csproj",
+        "projectName": "PracticWork6",
+        "projectPath": "C:\\Users\\gr612_zlsse\\SecondRcisEducationPractice\\PracticWork6\\PracticWork6\\PracticWork6.csproj",
         "packagesPath": "C:\\Users\\gr612_zlsse\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gr612_zlsse\\SecondRcisEducationPractice\\PracticWork2\\PracticWork2\\obj\\",
+        "outputPath": "C:\\Users\\gr612_zlsse\\SecondRcisEducationPractice\\PracticWork6\\PracticWork6\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -40,9 +40,14 @@
         "netcoreapp2.1": {
           "dependencies": {
             "Microsoft.NETCore.App": {
+              "suppressParent": "All",
               "target": "Package",
               "version": "[2.1.0, )",
               "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
             }
           },
           "imports": [
