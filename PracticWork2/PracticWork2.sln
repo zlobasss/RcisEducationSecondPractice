@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PracticWork2", "PracticWork2\PracticWork2.csproj", "{846970D1-B033-4C0D-B5A0-1DD01B85B409}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PracticWork2", "PracticWork2\PracticWork2.csproj", "{B79349E6-2126-4A38-A4B8-30840469462C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -8,9 +8,9 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{846970D1-B033-4C0D-B5A0-1DD01B85B409}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{846970D1-B033-4C0D-B5A0-1DD01B85B409}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{846970D1-B033-4C0D-B5A0-1DD01B85B409}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{846970D1-B033-4C0D-B5A0-1DD01B85B409}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B79349E6-2126-4A38-A4B8-30840469462C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B79349E6-2126-4A38-A4B8-30840469462C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B79349E6-2126-4A38-A4B8-30840469462C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B79349E6-2126-4A38-A4B8-30840469462C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

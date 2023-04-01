@@ -2,7 +2,7 @@
 {
     public class WindInfo
     {
-        public int Speed { get; set; }
+        public double Speed { get; set; }
         public int Deg { get; set; }
 
         public string DegToString()
@@ -11,16 +11,34 @@
             {
                 if (Deg < 150)
                 {
-                    return "юго-восточный";
+                    return "Юго-восток";
                 }
                 else if (Deg > 210)
                 {
-                    return "юго-западный";
+                    return "Юго-Запад";
                 }
-
-                return "южный";
+                return "Юг";
             }
-            if (Deg)
+
+            if (Deg <= 60 && Deg >= 300)
+            {
+                if (Deg > 30)
+                {
+                    return "Северо-восток";
+                }
+                if (Deg < 330)
+                {
+                    return "Северо-запад";
+                }
+                return "Север";
+            }
+
+            if (Deg < 120 && Deg > 60)
+            {
+                return "Восток";
+            }
+
+            return "Запад";
         }
     }
 }

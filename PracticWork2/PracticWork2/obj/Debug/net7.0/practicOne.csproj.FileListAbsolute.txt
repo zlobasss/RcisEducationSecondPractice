@@ -1,0 +1,15 @@
+C:\Users\serge\RiderProjects\practicOne\practicOne\obj\Debug\net7.0\practicOne.csproj.AssemblyReference.cache
+C:\Users\serge\RiderProjects\practicOne\practicOne\obj\Debug\net7.0\practicOne.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\serge\RiderProjects\practicOne\practicOne\obj\Debug\net7.0\practicOne.AssemblyInfoInputs.cache
+C:\Users\serge\RiderProjects\practicOne\practicOne\obj\Debug\net7.0\practicOne.AssemblyInfo.cs
+C:\Users\serge\RiderProjects\practicOne\practicOne\obj\Debug\net7.0\practicOne.csproj.CoreCompileInputs.cache
+C:\Users\serge\RiderProjects\practicOne\practicOne\bin\Debug\net7.0\practicOne.exe
+C:\Users\serge\RiderProjects\practicOne\practicOne\bin\Debug\net7.0\practicOne.deps.json
+C:\Users\serge\RiderProjects\practicOne\practicOne\bin\Debug\net7.0\practicOne.runtimeconfig.json
+C:\Users\serge\RiderProjects\practicOne\practicOne\bin\Debug\net7.0\practicOne.dll
+C:\Users\serge\RiderProjects\practicOne\practicOne\bin\Debug\net7.0\practicOne.pdb
+C:\Users\serge\RiderProjects\practicOne\practicOne\obj\Debug\net7.0\practicOne.dll
+C:\Users\serge\RiderProjects\practicOne\practicOne\obj\Debug\net7.0\refint\practicOne.dll
+C:\Users\serge\RiderProjects\practicOne\practicOne\obj\Debug\net7.0\practicOne.pdb
+C:\Users\serge\RiderProjects\practicOne\practicOne\obj\Debug\net7.0\practicOne.genruntimeconfig.cache
+C:\Users\serge\RiderProjects\practicOne\practicOne\obj\Debug\net7.0\ref\practicOne.dll

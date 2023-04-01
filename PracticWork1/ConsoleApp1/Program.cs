@@ -16,10 +16,8 @@ namespace ConsoleApp1
 
         static void Task1()
         {
-            string jew;
-            string stone;
-            stone = Console.ReadLine();
-            jew = Console.ReadLine();
+            string jew = Console.ReadLine();
+            string stone = Console.ReadLine();
             int count = 0;
             for (int i = 0; i < stone?.Length; ++i)
             {

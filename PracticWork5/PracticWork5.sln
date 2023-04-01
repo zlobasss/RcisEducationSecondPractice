@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PracticWork5", "PracticWork5\PracticWork5.csproj", "{D6D6E7B5-175A-4DD8-B468-9DE94D969F53}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PracticWork5", "PracticWork5\PracticWork5.csproj", "{3E10B6E3-3A09-453C-A0BC-424CB8809ECF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -8,9 +8,9 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{D6D6E7B5-175A-4DD8-B468-9DE94D969F53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D6D6E7B5-175A-4DD8-B468-9DE94D969F53}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D6D6E7B5-175A-4DD8-B468-9DE94D969F53}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D6D6E7B5-175A-4DD8-B468-9DE94D969F53}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E10B6E3-3A09-453C-A0BC-424CB8809ECF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E10B6E3-3A09-453C-A0BC-424CB8809ECF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E10B6E3-3A09-453C-A0BC-424CB8809ECF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E10B6E3-3A09-453C-A0BC-424CB8809ECF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

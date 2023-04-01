@@ -1,8 +1,13 @@
-﻿namespace PracticWork2
+namespace PracticWork2
 {
     public class Counter
     {
         private int _counter;
+
+        public Counter()
+        {
+            _counter = 0;
+        }
 
         public int SetCounter
         {

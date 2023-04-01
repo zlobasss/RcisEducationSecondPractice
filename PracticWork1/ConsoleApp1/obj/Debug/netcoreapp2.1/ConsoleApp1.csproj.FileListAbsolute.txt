@@ -20,3 +20,16 @@ C:\Users\gr612_zlsse\SecondRcisEducationPractice\PracticWork1\ConsoleApp1\obj\De
 C:\Users\gr612_zlsse\SecondRcisEducationPractice\PracticWork1\ConsoleApp1\obj\Debug\netcoreapp2.1\ConsoleApp1.AssemblyInfo.cs
 C:\Users\gr612_zlsse\SecondRcisEducationPractice\PracticWork1\ConsoleApp1\obj\Debug\netcoreapp2.1\ConsoleApp1.dll
 C:\Users\gr612_zlsse\SecondRcisEducationPractice\PracticWork1\ConsoleApp1\obj\Debug\netcoreapp2.1\ConsoleApp1.pdb
+C:\Users\serge\RiderProjects\SecondRcisEducationPractice\PracticWork1\ConsoleApp1\bin\Debug\netcoreapp2.1\ConsoleApp1.deps.json
+C:\Users\serge\RiderProjects\SecondRcisEducationPractice\PracticWork1\ConsoleApp1\bin\Debug\netcoreapp2.1\ConsoleApp1.runtimeconfig.json
+C:\Users\serge\RiderProjects\SecondRcisEducationPractice\PracticWork1\ConsoleApp1\bin\Debug\netcoreapp2.1\ConsoleApp1.runtimeconfig.dev.json
+C:\Users\serge\RiderProjects\SecondRcisEducationPractice\PracticWork1\ConsoleApp1\bin\Debug\netcoreapp2.1\ConsoleApp1.dll
+C:\Users\serge\RiderProjects\SecondRcisEducationPractice\PracticWork1\ConsoleApp1\bin\Debug\netcoreapp2.1\ConsoleApp1.pdb
+C:\Users\serge\RiderProjects\SecondRcisEducationPractice\PracticWork1\ConsoleApp1\obj\Debug\netcoreapp2.1\ConsoleApp1.csproj.AssemblyReference.cache
+C:\Users\serge\RiderProjects\SecondRcisEducationPractice\PracticWork1\ConsoleApp1\obj\Debug\netcoreapp2.1\ConsoleApp1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\serge\RiderProjects\SecondRcisEducationPractice\PracticWork1\ConsoleApp1\obj\Debug\netcoreapp2.1\ConsoleApp1.AssemblyInfoInputs.cache
+C:\Users\serge\RiderProjects\SecondRcisEducationPractice\PracticWork1\ConsoleApp1\obj\Debug\netcoreapp2.1\ConsoleApp1.AssemblyInfo.cs
+C:\Users\serge\RiderProjects\SecondRcisEducationPractice\PracticWork1\ConsoleApp1\obj\Debug\netcoreapp2.1\ConsoleApp1.csproj.CoreCompileInputs.cache
+C:\Users\serge\RiderProjects\SecondRcisEducationPractice\PracticWork1\ConsoleApp1\obj\Debug\netcoreapp2.1\ConsoleApp1.dll
+C:\Users\serge\RiderProjects\SecondRcisEducationPractice\PracticWork1\ConsoleApp1\obj\Debug\netcoreapp2.1\ConsoleApp1.pdb
+C:\Users\serge\RiderProjects\SecondRcisEducationPractice\PracticWork1\ConsoleApp1\obj\Debug\netcoreapp2.1\ConsoleApp1.genruntimeconfig.cache

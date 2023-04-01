@@ -1,43 +1,53 @@
-﻿using System;
+namespace PracticWork2;
 
-namespace PracticWork2
+public class Student
 {
-    public class Student
+    private string _lastName;
+    private DateTime _dateBirthday;
+    private int _group;
+    private int[] _marks;
+
+    public string SetLastName
     {
-        private string _surname;
-        private DateTime _birthday;
-        private int _group;
-        private int[] _marks = new int[5];
+        set => _lastName = value;
+    }
 
-        public string GetSurname => _surname;
-        public string SetSurname
+    public DateTime SetDateBirthday
+    {
+        set => _dateBirthday = value;
+    }
+
+    public int SetGroup
+    {
+        set => _group = value;
+    }
+
+    public int[] SetMarks
+    {
+        set => _marks = value;
+    }
+
+    public Student() {}
+    public Student(string lastName, DateTime dateBirthday, int group, int[] marks)
+    {
+        _lastName = lastName;
+        _dateBirthday = dateBirthday;
+        _group = group;
+        _marks = new int [5];
+        _marks = marks;
+    }
+
+    public void GetStudentInfo(string lastName, DateTime birthday)
+    {
+        if (_lastName == lastName && _dateBirthday == birthday)
         {
-            set => _surname = value;
+            string result = "Студент " + _lastName;
+            result += " группы №" + _group;
+            result += "\nДень рождение " + _dateBirthday.ToString("dd-MM-yyyy");
+            result += "\nУспеваемость: " + string.Join(" ", _marks);
+            Console.WriteLine(result);
         }
 
-        public DateTime GetBirthday => _birthday;
-        public DateTime SetBirthday
-        {
-            set => _birthday = value;
-        }
-
-        public int GetGroup => _group;
-        public int SetGroup
-        {
-            set => _group = value;
-        }
-
-        public int[] GetMarks => _marks;
-        public int[] SetMarks
-        {
-            set => _marks = value;
-        }
-
-        public void PrintInfo()
-        {
-            Console.WriteLine($"Студент: {_surname} из группы {_group}  ");
-            Console.WriteLine($"Дата рождения {_birthday.ToString("dd.MM.yyyy")}");
-            Console.WriteLine($"Оценки [ {string.Join(", ", _marks)} ]");
-        }
+            
     }
 }

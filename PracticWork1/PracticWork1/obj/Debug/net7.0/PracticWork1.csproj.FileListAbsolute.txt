@@ -1,0 +1,15 @@
+C:\Users\serge\RiderProjects\PracticWork1\PracticWork1\bin\Debug\net7.0\PracticWork1.exe
+C:\Users\serge\RiderProjects\PracticWork1\PracticWork1\bin\Debug\net7.0\PracticWork1.deps.json
+C:\Users\serge\RiderProjects\PracticWork1\PracticWork1\bin\Debug\net7.0\PracticWork1.runtimeconfig.json
+C:\Users\serge\RiderProjects\PracticWork1\PracticWork1\bin\Debug\net7.0\PracticWork1.dll
+C:\Users\serge\RiderProjects\PracticWork1\PracticWork1\bin\Debug\net7.0\PracticWork1.pdb
+C:\Users\serge\RiderProjects\PracticWork1\PracticWork1\obj\Debug\net7.0\PracticWork1.csproj.AssemblyReference.cache
+C:\Users\serge\RiderProjects\PracticWork1\PracticWork1\obj\Debug\net7.0\PracticWork1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\serge\RiderProjects\PracticWork1\PracticWork1\obj\Debug\net7.0\PracticWork1.AssemblyInfoInputs.cache
+C:\Users\serge\RiderProjects\PracticWork1\PracticWork1\obj\Debug\net7.0\PracticWork1.AssemblyInfo.cs
+C:\Users\serge\RiderProjects\PracticWork1\PracticWork1\obj\Debug\net7.0\PracticWork1.csproj.CoreCompileInputs.cache
+C:\Users\serge\RiderProjects\PracticWork1\PracticWork1\obj\Debug\net7.0\PracticWork1.dll
+C:\Users\serge\RiderProjects\PracticWork1\PracticWork1\obj\Debug\net7.0\refint\PracticWork1.dll
+C:\Users\serge\RiderProjects\PracticWork1\PracticWork1\obj\Debug\net7.0\PracticWork1.pdb
+C:\Users\serge\RiderProjects\PracticWork1\PracticWork1\obj\Debug\net7.0\PracticWork1.genruntimeconfig.cache
+C:\Users\serge\RiderProjects\PracticWork1\PracticWork1\obj\Debug\net7.0\ref\PracticWork1.dll

@@ -1,0 +1,17 @@
+C:\Users\serge\RiderProjects\PracticWork6\PracticWork6\bin\Debug\net7.0\PracticWork6.exe
+C:\Users\serge\RiderProjects\PracticWork6\PracticWork6\bin\Debug\net7.0\PracticWork6.deps.json
+C:\Users\serge\RiderProjects\PracticWork6\PracticWork6\bin\Debug\net7.0\PracticWork6.runtimeconfig.json
+C:\Users\serge\RiderProjects\PracticWork6\PracticWork6\bin\Debug\net7.0\PracticWork6.dll
+C:\Users\serge\RiderProjects\PracticWork6\PracticWork6\bin\Debug\net7.0\PracticWork6.pdb
+C:\Users\serge\RiderProjects\PracticWork6\PracticWork6\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\Users\serge\RiderProjects\PracticWork6\PracticWork6\obj\Debug\net7.0\PracticWork6.csproj.AssemblyReference.cache
+C:\Users\serge\RiderProjects\PracticWork6\PracticWork6\obj\Debug\net7.0\PracticWork6.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\serge\RiderProjects\PracticWork6\PracticWork6\obj\Debug\net7.0\PracticWork6.AssemblyInfoInputs.cache
+C:\Users\serge\RiderProjects\PracticWork6\PracticWork6\obj\Debug\net7.0\PracticWork6.AssemblyInfo.cs
+C:\Users\serge\RiderProjects\PracticWork6\PracticWork6\obj\Debug\net7.0\PracticWork6.csproj.CoreCompileInputs.cache
+C:\Users\serge\RiderProjects\PracticWork6\PracticWork6\obj\Debug\net7.0\PracticWork6.csproj.CopyComplete
+C:\Users\serge\RiderProjects\PracticWork6\PracticWork6\obj\Debug\net7.0\PracticWork6.dll
+C:\Users\serge\RiderProjects\PracticWork6\PracticWork6\obj\Debug\net7.0\refint\PracticWork6.dll
+C:\Users\serge\RiderProjects\PracticWork6\PracticWork6\obj\Debug\net7.0\PracticWork6.pdb
+C:\Users\serge\RiderProjects\PracticWork6\PracticWork6\obj\Debug\net7.0\PracticWork6.genruntimeconfig.cache
+C:\Users\serge\RiderProjects\PracticWork6\PracticWork6\obj\Debug\net7.0\ref\PracticWork6.dll

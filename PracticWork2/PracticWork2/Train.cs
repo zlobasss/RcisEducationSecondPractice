@@ -1,36 +1,28 @@
-﻿using System;
 
-namespace PracticWork2
+namespace PracticWork2;
+
+public class Train
 {
-    public class Train
+    private string _name;
+    private int _number;
+    private DateTime _time;
+
+    public Train(string name, int number, DateTime time)
     {
-        private string _destination;
-        private int _number;
-        private DateTime _time;
+        _name = name;
+        _number = number;
+        _time = time;
+    }
 
-        public DateTime SetTime
+    public void GetTrainInfo(int number)
+    {
+        if (number == _number)
         {
-            set => _time = value;
-        }
-        public DateTime GetTime => _time;
-        
-        public string SetDestination
-        {
-            set => _destination = value;
-        }
-        public string GetDestination => _destination;
-
-        public int SetNumber
-        {
-            set => _number = value;
-        }
-        public int GetNumber => _number;
-
-        public void PrintInfo()
-        {
-            Console.WriteLine($"Поезд номер {_number}");
-            Console.WriteLine($"Отправляется в {_time.ToString("dd.MM.yy HH:mm")}");
-            Console.WriteLine($"Пункт назначения {_destination}");
+            string result = "Поезд №" + _number;
+            result += "\nОтправляется в " + _name;
+            result += "\nВремя отправления: " + _time.ToString("dd.MM HH:mm");
+             
+            Console.WriteLine(result);
         }
     }
 }
